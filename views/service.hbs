@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/service.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="problem">
+    <div class="table">
+    <h1>KICK START TO KICK OFF <span>YOUR PROBLEMS</span></h1>
+    <p id="para-01">Please mention the manufacturing industry you are looking for?</p>
+<div class="searchbox" id="searchbox">
+    <input type="text" name="first-type-industry-input" id="User-text-input" onkeyup="searchfun()">
+    <button type="submit" value="search">&nbsp;</button>
+</div>
+    <table id="table-01">
+        <th id="first-row"></tr>
+        <tr><td><button>Food Industry</button></td></tr>
+        <tr><td><button id="automation" onclick="Blind()">Automotive Industry</button></td></tr>
+        <tr><td><button>Telcommunication Industry</button></td></tr>
+        <tr><td><button>Clothing Industry</button></td></tr>
+        <tr><td><button>Metal and Ferrous industry</button></td></tr>
+        <tr><td><button>Equipment Industry</button></td></tr>
+        <tr><td><button>clay Industry</button></td></tr>
+        <tr><td><button>Plastic Industry</button></td></tr>
+        <tr><td><button>Wood Industry</button></td></tr>
+        <tr><td><button>Paper Industry</button></td></tr>
+        <tr><td><button>Fashion Industry</button></td></tr>
+        <tr><td><button>Glass Industry</button></td></tr>
+        <tr><td><button>Petroleum Industry</button></td></tr>
+        <tr><td><button>Leather Industry</button></td></tr>
+        <tr><td><button>Rubber Manufacturing Industry</button></td></tr>
+        <tr><td><button>Computer Manufacturing Industry</button></td></tr>
+        <tr><td><button>Electronic Appliances Manufacturing Industry</button></td></tr>
+        <tr><td><button>Beverages Industry</button></td></tr>
+        <tr><td class="second-last"><button>Mining Industry</button></td></tr>
+        <tr><td class="last-one">DIDN'T FIND YOUR TYPE <a href="https://www.google.com/">browse here...</a></td></tr>
+    </table>
+    <div class="wrapper">
+       <div class="header">
+          <p class="header__title">ARE YOU FACING THE BELOW PROBLEMS?</p>
+          <h2 class="header__subtitle">CLICK ON ANY OF THE BELOW PROBLEMS TO PROCEED FURTHER</h2>
+        </div>
+      
+        <div class="cards">
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>MANUFACTURING SHUTDOWNS</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              A shutdown is the closing of a manufacturing unit either for a short time for ever.Automakers will have to speed up the technology shift in the automotive sectar to move away from conventional manufacturing standards.
+              <div><form action="/manufacturingShutdown" method="post"><button class="submit-button special-submit-button-01">SUBMIT</button></form></div>
+            </div>
+          </div>
+      
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>LESS VECHILE SALES</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              Reduced automobile sales might be due lack of marketing and creating connection with consumers.The only solution is to a get a closer, friendlier and more responsive drive, and AI technology is the only enabler.Chatbots are the best customer engagement tools to use.
+              <div><form action="/vehicle" method="post"><button class="submit-button">SUBMIT</button></form></div>
+            </div>
+          </div>
+      
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>Disrupted Supply Chain</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              Supply chain disrupts when something goes wrong within manufacturing process, when mistakes are made in shipping process and there exists a disruption in planning and control.The application of the Internet of Things, the use of advanced robotics, and the application of advanced analytics of big data in supply chain management: place sensors in everything, create networks everywhere, automate anything, and analyze everything.
+              <div><form action="/disrupt" method="post"><button class="submit-button special-submit-button-02">SUBMIT</button></form></div>
+            </div>
+          </div>
+      
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>Liquidity</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              Lack of funds is likely to result in many small-time automotive companies going out of business.Using artificial intelligence in automotive market to predict real-time cash influx and automation are also some options automakers can tap into as they deal with liquidity challenges.
+              <div><form action="/liquid" method="post"><button class="submit-button">SUBMIT</button></form></div>
+            </div>
+          </div>
+      
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>CHANGE IN CUSTOMER BEHAVIOUR</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              Scarce finances and uncertainly about the future led to consumers backing out of making vehicle purchases, that emerged as one of the key challenges of the automotive industry.The only way to deal this is trying to do amazing things and AI/ML features are the key to improve customer experience.
+              <div><form action="/customer" method="post"><button class="submit-button">SUBMIT</button></form></div>
+            </div>
+          </div>
+      
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>Didn't find...Let's Connect</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              Mail us at xyz@company.com 
+            </div>
+          </div>
+
+          <div class=" card [ is-collapsed ] ">
+            <div class="card__inner [ js-expander ]">
+              <span>OOPS...wrong industry</span>
+            </div>
+            <div class="card__expander">
+              <i class="fa fa-close [ js-collapser ]"></i>
+              click here to go back
+              <div><button class="submit-button" onclick="goback()">SUBMIT</button></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</div>
+<div class="image">
+<div class="image-01">
+    <img src="/images/settings.png" class="special-image-01-i">
+    <img src="/images/settings.png" class="special-image-01-ii">
+    <img src="/images/settings.png" class="special-image-01-iii">
+</div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    const searchfun = ()=>{
+    let search = document.getElementById('User-text-input').value.toUpperCase();
+    let table = document.getElementById('table-01');
+    let tr = table.getElementsByTagName('tr');
+    for(var i=0;i<tr.length;i++){
+        let td = tr[i].getElementsByTagName('td')[0];
+        if(td){
+            let textdataoftable = td.textcontent || td.innerHTML;
+            if(textdataoftable.toUpperCase().indexOf(search)>-1){
+                tr[i].style.display = "";
+            }
+            else if(textdataoftable.toUpperCase().indexOf(search)==-1){
+                tr[i].style.display = "none";
+                tr[20].style.display = "";
+            }
+            else if(search.value.length == 0){
+                tr[i].style.display = "";
+            }
+        }
+    }
+}
+function Blind(){
+    let automation= document.getElementById('automation');
+    let searchbox= document.getElementById('searchbox');
+    let table = document.getElementById('table-01');
+    let para01 = document.getElementById('para-01');
+    searchbox.style.display="none";
+    table.style.display="none";
+    para01.style.display="none";
+}
+var $cell = $('.card');
+//open and close card when clicked on card
+$cell.find('.js-expander').click(function() {
+var $thisCell = $(this).closest('.card');
+if ($thisCell.hasClass('is-collapsed')) {
+$cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed').addClass('is-inactive');
+$thisCell.removeClass('is-collapsed').addClass('is-expanded');
+if ($cell.not($thisCell).hasClass('is-inactive')) {
+  //do nothing
+} else {
+  $cell.not($thisCell).addClass('is-inactive');
+}} else {
+$thisCell.removeClass('is-expanded').addClass('is-collapsed');
+$cell.not($thisCell).removeClass('is-inactive');
+}
+});
+//close card when click on cross
+$cell.find('.js-collapser').click(function() {
+var $thisCell = $(this).closest('.card');
+$thisCell.removeClass('is-expanded').addClass('is-collapsed');
+$cell.not($thisCell).removeClass('is-inactive');
+});
+function goback(){
+    let automation= document.getElementById('automation');
+    let searchbox= document.getElementById('searchbox');
+    let table = document.getElementById('table-01');
+    let para01 = document.getElementById('para-01');
+    searchbox.style.display="block";
+    table.style.display="block";
+    para01.style.display="block";
+}
+</script>
+</body>
+</html>

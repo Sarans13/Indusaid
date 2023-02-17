@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry 4.0</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- boxicon CSS -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <!-- font awesom icons css -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="book">
+        <div class="book-container">
+            <div class="title">Book Now</div>
+            <form action="/debit" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">phone number</span>
+                        <input type="text" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Write your problem</span>
+                        <input type="text" placeholder="Write your problem" required>
+                    </div>
+                    <div class="inputbox drop-down">
+                        <label>
+                            Solution
+                        </label>
+                        <select>
+                            <option>Consultancy</option>
+                            <option>Tie Up</option>
+                        </select>
+                    </div>
+                    <div class="inputbox drop-down">
+                        <label>
+                            How would you like to be contacted
+                        </label>
+                        <select>
+                            <option>No preference</option>
+                            <option>phone</option>
+                            <option>mail</option>
+                            <option>whatsapp</option>
+                        </select>
+                    </div>
+                    <div class="link-details">
+                        <input type="radio" data-href="/debit.html" name="link" id="dot-1" value="dot-1">
+                        <input type="radio" data-href="/upi.html" name="link" id="dot-2" value="dot-2">
+                        <input type="radio" data-href="/netBanking.html" name="link" id="dot-3" value="dot-3">
+                        <span class="link-title">Payment Method</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="link">Debit card</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="link">UPI</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="link">Internet Banking</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" id="clickButton" value="Proceed to payment">
+                    </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="col-lg-3 mobile">
+                    <div class="footer-info">
+                        <h3>IndusAid</h3>
+                        <p> A108 Adam Street <br> NY 535022, USA<br><br> <strong>Phone:</strong> 0123456789<br>
+                            <strong>Email:</strong> industry@gmail.com
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mobile footer-links">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mobile footer-links">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Consultation</a></li>
+                        <li><a href="#">Tie up</a></li>
+                        <li><a href="#">Visit</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mobile footer-newsletter">
+                    <h3>Our Newsletter</h3>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post"> <input type="email" name="email"><input type="submit"
+                            value="Subscribe"></form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright"> &copy; Copyright <strong><span>IndusAid</span></strong>. All Rights Reserved</div>
+            <!-- <div class="credits"> Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div> -->
+        </div>
+    </footer>
+
+
+    <!-- toTop button -->
+    <a href="#" class="to-top">
+        <i class="fa-sharp fa-solid fa-angle-up"></i>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+            $('#clickButton').click(function () {
+            var url = $('input[name=link]:checked').data('href');
+            //Goto url
+            window.location.href = url;
+        });
+        // js for 'toTop' button
+        const toTop = document.querySelector(".to-top");
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add("active");
+            } else {
+                toTop.classList.remove("active");
+            }
+        })
+    </script>
+
+</body>
+
+</html>
